@@ -1,0 +1,237 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: black;
+  color: rgb(234, 234, 234);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  padding: 10px;
+  width: 80vw;
+  flex: 1;
+  align-self: center;
+}
+
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+footer {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(237, 237, 243);
+  font-size: 0.8rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction:column;
+  gap: 150px;
+  margin-top: 150px;
+
+  
+}
+
+.projectbrief{
+ max-width: 50%;
+}
+
+#deco {
+  background-image: linear-gradient(blue, pink);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+
+img {
+  border-radius: 15px;
+  width: 50%;
+}
+
+.logo {
+  width: 150px;
+  border-radius: 0;
+}
+
+.leftcard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: center;
+}
+
+.middlecard {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 70px;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.9rem;
+
+}
+
+.card-text {
+  font-size: 1.4rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+
+  .card-title {
+    font-size: 1.3rem;
+  
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  
+  }
+}
+
+@media (max-width:768px) {
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  
+  }
+  
+  .card-text {
+    font-size: 0.8rem;
+  
+  }
+
+  .projects {
+    margin-top: 80px;
+    gap: 40px;
+  }
+
+
+  .leftcard {
+
+    gap: 30px;
+   
+  }
+  
+  .middlecard {
+    gap: 30px;
+    
+  }
+
+}
+
+/* mobile landscape */
+
+@media (max-width:425px) {
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    margin: 0;
+  
+  }
+  
+  .card-text {
+    font-size: 0.8rem;
+    margin-top:0;
+    line-height: 1.6;
+  
+  }
+
+  .projects {
+    margin-top: 80px;
+    gap: 40px;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .projectbrief {
+    min-width:100%;
+    text-align: center;
+  }
+
+  .leftcard {
+    flex-direction: column;
+    gap:0;
+   
+  }
+  
+  .middlecard {
+    flex-direction: column;
+    gap: 0px;
+    
+  }
+
+  footer {
+    margin-top: 100px;
+  margin-bottom: 20px;
+
+  }
+
+}
+
+
+
+@media (max-width:375px) {
+
+.card-text {
+  margin-top: 5px;
+}
+
+}
+
+
+@media (max-width:320px) {
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .card-text {
+    font-size: 0.7rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .projects {
+    margin-top: 50px;
+  }
+
+    .logo {
+      width: 110px;
+    }
+  }
